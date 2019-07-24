@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.cal {
+    width: 14em;
+}
+.display {
+    background-color: aquamarine;
+    text-align: right;
+    height: 2em;
+    width: 13em;
+}
+/*.num {
+    width: calc(6em + 6px);
+}*/
+
+.btn-num {
+    user-select: none;
+    padding: 2px;
+    display: inline-block;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    background-color: aqua;
+    font-size: 1.5em;
+    text-align: center;
+    transition: .5s;
+}
+
+.btn-num:active {
+    background-color: rgba(0, 177, 177, 0.7);
+}
+
+.row-1, .row-2, .row-3, .row-4, .row-5{
+    padding: 2px;
+}
+
+.row-5 .btn-num-0 {
+  width: calc(4em + 4px);
+}
+
+.row-4 .btn-num-9 {
+  height: calc(4em + 4px);
+}
